@@ -38,6 +38,8 @@ h6 {
 }
 
 #passport {
+	height: auto;
+	width: auto;
 	overflow: hidden;
 }
 
