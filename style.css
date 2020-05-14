@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(to right, rgb(127, 127, 213), rgb(134, 168, 231), rgb(145, 234, 228));
+	background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
 }
 
 h1 {
@@ -35,13 +35,17 @@ h6 {
 
 .skl {
 	margin: 15px;
+	height: 25px;
 }
 
 #passport {
-	height: auto;
-	width: auto;
+	height: 100%;
+	width: 90%;
 	overflow: hidden;
+	transform: scaleY(1.22);
+	
 }
+
 
 #programmingskills {
 	align-items: center;
@@ -49,6 +53,7 @@ h6 {
 	border: 1 px solid #c582e6;
 	border-radius: 5px;
 	box-shadow: 10px 12px 15px #ebc3ff;
+	height: 230px;
 }
 
 #otherskills {
@@ -71,6 +76,80 @@ h6 {
 }
 
 #inrow4 a {
-	width: 98.5%;
+	width: 96.8%;
 	display: block;
+}
+
+.scnd .table caption {
+	color: #ffffff;
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.fourth .list-group li {
+	padding: 10px;
+	font-size: large;
+	font-weight: 500;
+}
+
+.header h4 {
+	font-size: 32px;
+	font-weight: 900;
+	color: #ffffff;
+}
+
+.fifth .project-details a li {
+	padding: 10px;
+	list-style: none;
+	font-size: large;
+	font-weight: 500;
+}
+
+#inrow2  {
+	background-color: #a6acec;
+	width: 100%;
+}
+
+#inrow2 h6 a,
+#inrow4 a,
+.fifth .project-details a {
+	text-decoration: none;
+	color: #000000;
+}
+
+hr {
+	border: 2.5px solid black;
+}
+
+#projects a button {
+	background-color: #f5587b;
+}
+
+#academics a button {
+	background-color: #feff89;
+}
+
+#skills a button {
+	background-color: #f85959;
+}
+
+#inrow4 a button {
+	background-color: #a6acec;
+}
+
+#skill2 a button {
+	background-color: #88bef5;
+}
+
+.line1 {
+	background-color: #c4c708;
+}
+.line2 {
+	background-color: #ff9f68;
+}
+.line3 {
+	background-color: #f85959;
+}
+.line4 {
+	background-color: #7c203a;
 }
