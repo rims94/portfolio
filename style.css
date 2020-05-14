@@ -43,7 +43,6 @@ h6 {
 	top: 23px;
 }
 
-
 #programmingskills {
 	align-items: center;
 	justify-content: center;
@@ -109,14 +108,14 @@ h6 {
 	bottom: 15px;
 }
 
-.fifth .project-details li  {
+.fifth .project-details li {
 	padding: 10px;
 	list-style: none;
 	font-size: large;
 	font-weight: 500;
 }
 
-#inrow2  {
+#inrow2 {
 	background-color: #a6acec;
 	width: 100%;
 }
@@ -146,6 +145,7 @@ hr {
 
 #inrow4 a button {
 	background-color: #a6acec;
+	height: 45px;
 }
 
 #skill2 a button {
@@ -195,7 +195,7 @@ hr {
 	bottom: 15px;
 }
 
-.sixth{
+.sixth {
 	display: flex;
 	justify-content: center;
 	align-items: center;
