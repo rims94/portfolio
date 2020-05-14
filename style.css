@@ -69,3 +69,8 @@ h6 {
 #projects a {
 	text-decoration: none;
 }
+
+#inrow4 a {
+	width: 98.5%;
+	display: block;
+}
